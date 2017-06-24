@@ -24,8 +24,6 @@ Writer a csv file is done by calling the Create function. Like Open, the same se
 
 ```
 w, _ := csv.Create("/path/to/file.csv")
-for {
-    w.Write([]string{"column 1","column 2","column 3"})
-}
+w.Write([]string{"column 1","column 2","column 3"})
 w.Close()
 ```
