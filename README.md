@@ -6,6 +6,12 @@ csv provides a set of utility functions to reduce the boilerplate necessary to u
 Usage
 -----
 
+Get the package.
+
+```
+go get -u github.com/keysolutions/csv
+```
+
 Opening a csv file is done by calling the Open function, much like os.Open from the standard library. Insetad of receiving an *os.File when successful, a *csv.Reader is provided instead. The *csv.Reader can be read from just like *csv.Reader in the standard library.
 
 ```
